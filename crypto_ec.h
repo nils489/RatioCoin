@@ -7,5 +7,6 @@
 #include <openssl/ecdsa.h>
 
 EC_KEY *create_rc_ec_keypair(const uint8_t *priv_bytes);
+EC_KEY *create_rc_ec_pubkey(const uint8_t *pub_bytes, size_t pub_len);
 
 #endif
