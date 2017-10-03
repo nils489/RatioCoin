@@ -6,4 +6,6 @@
 #include <openssl/obj_mac.h>
 #include <openssl/ecdsa.h>
 
+EC_KEY *create_rc_ec_keypair(const uint8_t *priv_bytes);
+
 #endif
